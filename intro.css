@@ -1,0 +1,41 @@
+html,
+body {
+  background-color: lightgray;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px;
+
+}
+
+.box {
+  padding: 2px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: flex;
+  margin: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #1a571c;
+  border: none;
+  border-radius: 15px;
+}
